@@ -15,13 +15,15 @@
 		112095281A3B0D1B00419033 /* XZZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 112095271A3B0D1B00419033 /* XZZAppDelegate.m */; };
 		1120952B1A3B0D1B00419033 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112095291A3B0D1B00419033 /* Main_iPhone.storyboard */; };
 		1120952E1A3B0D1B00419033 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1120952C1A3B0D1B00419033 /* Main_iPad.storyboard */; };
-		112095311A3B0D1B00419033 /* XZZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112095301A3B0D1B00419033 /* XZZViewController.m */; };
 		112095331A3B0D1B00419033 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112095321A3B0D1B00419033 /* Images.xcassets */; };
 		1120953A1A3B0D1B00419033 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112095391A3B0D1B00419033 /* XCTest.framework */; };
 		1120953B1A3B0D1B00419033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112095171A3B0D1B00419033 /* Foundation.framework */; };
 		1120953C1A3B0D1B00419033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1120951B1A3B0D1B00419033 /* UIKit.framework */; };
 		112095441A3B0D1B00419033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 112095421A3B0D1B00419033 /* InfoPlist.strings */; };
 		112095461A3B0D1B00419033 /* NSUserDefaults__Segues_and_Protocols_Chanllenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112095451A3B0D1B00419033 /* NSUserDefaults__Segues_and_Protocols_Chanllenge_SolutionTests.m */; };
+		112095541A3B0ED500419033 /* XZZAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112095531A3B0ED500419033 /* XZZAccountViewController.m */; };
+		112095571A3BAD7100419033 /* XZZSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112095561A3BAD7100419033 /* XZZSignInViewController.m */; };
+		1120955A1A3BADE700419033 /* XZZCreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112095591A3BADE700419033 /* XZZCreateAccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +49,18 @@
 		112095271A3B0D1B00419033 /* XZZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZZAppDelegate.m; sourceTree = "<group>"; };
 		1120952A1A3B0D1B00419033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		1120952D1A3B0D1B00419033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		1120952F1A3B0D1B00419033 /* XZZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZZViewController.h; sourceTree = "<group>"; };
-		112095301A3B0D1B00419033 /* XZZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZZViewController.m; sourceTree = "<group>"; };
 		112095321A3B0D1B00419033 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		112095381A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSUserDefaults, Segues and Protocols Chanllenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		112095391A3B0D1B00419033 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		112095411A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Chanllenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		112095431A3B0D1B00419033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		112095451A3B0D1B00419033 /* NSUserDefaults__Segues_and_Protocols_Chanllenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues_and_Protocols_Chanllenge_SolutionTests.m; sourceTree = "<group>"; };
+		112095521A3B0ED500419033 /* XZZAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZZAccountViewController.h; sourceTree = "<group>"; };
+		112095531A3B0ED500419033 /* XZZAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZZAccountViewController.m; sourceTree = "<group>"; };
+		112095551A3BAD7100419033 /* XZZSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZZSignInViewController.h; path = ../XZZSignInViewController.h; sourceTree = "<group>"; };
+		112095561A3BAD7100419033 /* XZZSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZZSignInViewController.m; path = ../XZZSignInViewController.m; sourceTree = "<group>"; };
+		112095581A3BADE700419033 /* XZZCreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZZCreateAccountViewController.h; sourceTree = "<group>"; };
+		112095591A3BADE700419033 /* XZZCreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZZCreateAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +124,12 @@
 				112095271A3B0D1B00419033 /* XZZAppDelegate.m */,
 				112095291A3B0D1B00419033 /* Main_iPhone.storyboard */,
 				1120952C1A3B0D1B00419033 /* Main_iPad.storyboard */,
-				1120952F1A3B0D1B00419033 /* XZZViewController.h */,
-				112095301A3B0D1B00419033 /* XZZViewController.m */,
+				112095551A3BAD7100419033 /* XZZSignInViewController.h */,
+				112095561A3BAD7100419033 /* XZZSignInViewController.m */,
+				112095581A3BADE700419033 /* XZZCreateAccountViewController.h */,
+				112095591A3BADE700419033 /* XZZCreateAccountViewController.m */,
+				112095521A3B0ED500419033 /* XZZAccountViewController.h */,
+				112095531A3B0ED500419033 /* XZZAccountViewController.m */,
 				112095321A3B0D1B00419033 /* Images.xcassets */,
 				1120951E1A3B0D1B00419033 /* Supporting Files */,
 			);
@@ -254,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1120955A1A3BADE700419033 /* XZZCreateAccountViewController.m in Sources */,
+				112095541A3B0ED500419033 /* XZZAccountViewController.m in Sources */,
 				112095241A3B0D1B00419033 /* main.m in Sources */,
+				112095571A3BAD7100419033 /* XZZSignInViewController.m in Sources */,
 				112095281A3B0D1B00419033 /* XZZAppDelegate.m in Sources */,
-				112095311A3B0D1B00419033 /* XZZViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
