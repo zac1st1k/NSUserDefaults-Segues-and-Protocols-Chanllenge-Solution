@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112095181A3B0D1B00419033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112095171A3B0D1B00419033 /* Foundation.framework */; };
+		1120951A1A3B0D1B00419033 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112095191A3B0D1B00419033 /* CoreGraphics.framework */; };
+		1120951C1A3B0D1B00419033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1120951B1A3B0D1B00419033 /* UIKit.framework */; };
+		112095221A3B0D1B00419033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 112095201A3B0D1B00419033 /* InfoPlist.strings */; };
+		112095241A3B0D1B00419033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 112095231A3B0D1B00419033 /* main.m */; };
+		112095281A3B0D1B00419033 /* XZZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 112095271A3B0D1B00419033 /* XZZAppDelegate.m */; };
+		1120952B1A3B0D1B00419033 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112095291A3B0D1B00419033 /* Main_iPhone.storyboard */; };
+		1120952E1A3B0D1B00419033 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1120952C1A3B0D1B00419033 /* Main_iPad.storyboard */; };
+		112095311A3B0D1B00419033 /* XZZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112095301A3B0D1B00419033 /* XZZViewController.m */; };
+		112095331A3B0D1B00419033 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112095321A3B0D1B00419033 /* Images.xcassets */; };
+		1120953A1A3B0D1B00419033 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112095391A3B0D1B00419033 /* XCTest.framework */; };
+		1120953B1A3B0D1B00419033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112095171A3B0D1B00419033 /* Foundation.framework */; };
+		1120953C1A3B0D1B00419033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1120951B1A3B0D1B00419033 /* UIKit.framework */; };
+		112095441A3B0D1B00419033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 112095421A3B0D1B00419033 /* InfoPlist.strings */; };
+		112095461A3B0D1B00419033 /* NSUserDefaults__Segues_and_Protocols_Chanllenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112095451A3B0D1B00419033 /* NSUserDefaults__Segues_and_Protocols_Chanllenge_SolutionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1120953D1A3B0D1B00419033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1120950C1A3B0D1B00419033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 112095131A3B0D1B00419033;
+			remoteInfo = "NSUserDefaults, Segues and Protocols Chanllenge Solution";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		112095141A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSUserDefaults, Segues and Protocols Chanllenge Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		112095171A3B0D1B00419033 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		112095191A3B0D1B00419033 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1120951B1A3B0D1B00419033 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1120951F1A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge Solution-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Chanllenge Solution-Info.plist"; sourceTree = "<group>"; };
+		112095211A3B0D1B00419033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		112095231A3B0D1B00419033 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		112095251A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge Solution-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults, Segues and Protocols Chanllenge Solution-Prefix.pch"; sourceTree = "<group>"; };
+		112095261A3B0D1B00419033 /* XZZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZZAppDelegate.h; sourceTree = "<group>"; };
+		112095271A3B0D1B00419033 /* XZZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZZAppDelegate.m; sourceTree = "<group>"; };
+		1120952A1A3B0D1B00419033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1120952D1A3B0D1B00419033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1120952F1A3B0D1B00419033 /* XZZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZZViewController.h; sourceTree = "<group>"; };
+		112095301A3B0D1B00419033 /* XZZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZZViewController.m; sourceTree = "<group>"; };
+		112095321A3B0D1B00419033 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		112095381A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSUserDefaults, Segues and Protocols Chanllenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		112095391A3B0D1B00419033 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		112095411A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Chanllenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
+		112095431A3B0D1B00419033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		112095451A3B0D1B00419033 /* NSUserDefaults__Segues_and_Protocols_Chanllenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues_and_Protocols_Chanllenge_SolutionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		112095111A3B0D1B00419033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1120951A1A3B0D1B00419033 /* CoreGraphics.framework in Frameworks */,
+				1120951C1A3B0D1B00419033 /* UIKit.framework in Frameworks */,
+				112095181A3B0D1B00419033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112095351A3B0D1B00419033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1120953A1A3B0D1B00419033 /* XCTest.framework in Frameworks */,
+				1120953C1A3B0D1B00419033 /* UIKit.framework in Frameworks */,
+				1120953B1A3B0D1B00419033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1120950B1A3B0D1B00419033 = {
+			isa = PBXGroup;
+			children = (
+				1120951D1A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge Solution */,
+				1120953F1A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge SolutionTests */,
+				112095161A3B0D1B00419033 /* Frameworks */,
+				112095151A3B0D1B00419033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		112095151A3B0D1B00419033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				112095141A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge Solution.app */,
+				112095381A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge SolutionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		112095161A3B0D1B00419033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112095171A3B0D1B00419033 /* Foundation.framework */,
+				112095191A3B0D1B00419033 /* CoreGraphics.framework */,
+				1120951B1A3B0D1B00419033 /* UIKit.framework */,
+				112095391A3B0D1B00419033 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1120951D1A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge Solution */ = {
+			isa = PBXGroup;
+			children = (
+				112095261A3B0D1B00419033 /* XZZAppDelegate.h */,
+				112095271A3B0D1B00419033 /* XZZAppDelegate.m */,
+				112095291A3B0D1B00419033 /* Main_iPhone.storyboard */,
+				1120952C1A3B0D1B00419033 /* Main_iPad.storyboard */,
+				1120952F1A3B0D1B00419033 /* XZZViewController.h */,
+				112095301A3B0D1B00419033 /* XZZViewController.m */,
+				112095321A3B0D1B00419033 /* Images.xcassets */,
+				1120951E1A3B0D1B00419033 /* Supporting Files */,
+			);
+			path = "NSUserDefaults, Segues and Protocols Chanllenge Solution";
+			sourceTree = "<group>";
+		};
+		1120951E1A3B0D1B00419033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1120951F1A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge Solution-Info.plist */,
+				112095201A3B0D1B00419033 /* InfoPlist.strings */,
+				112095231A3B0D1B00419033 /* main.m */,
+				112095251A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge Solution-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1120953F1A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge SolutionTests */ = {
+			isa = PBXGroup;
+			children = (
+				112095451A3B0D1B00419033 /* NSUserDefaults__Segues_and_Protocols_Chanllenge_SolutionTests.m */,
+				112095401A3B0D1B00419033 /* Supporting Files */,
+			);
+			path = "NSUserDefaults, Segues and Protocols Chanllenge SolutionTests";
+			sourceTree = "<group>";
+		};
+		112095401A3B0D1B00419033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				112095411A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge SolutionTests-Info.plist */,
+				112095421A3B0D1B00419033 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		112095131A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge Solution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112095491A3B0D1B00419033 /* Build configuration list for PBXNativeTarget "NSUserDefaults, Segues and Protocols Chanllenge Solution" */;
+			buildPhases = (
+				112095101A3B0D1B00419033 /* Sources */,
+				112095111A3B0D1B00419033 /* Frameworks */,
+				112095121A3B0D1B00419033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSUserDefaults, Segues and Protocols Chanllenge Solution";
+			productName = "NSUserDefaults, Segues and Protocols Chanllenge Solution";
+			productReference = 112095141A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge Solution.app */;
+			productType = "com.apple.product-type.application";
+		};
+		112095371A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge SolutionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1120954C1A3B0D1B00419033 /* Build configuration list for PBXNativeTarget "NSUserDefaults, Segues and Protocols Chanllenge SolutionTests" */;
+			buildPhases = (
+				112095341A3B0D1B00419033 /* Sources */,
+				112095351A3B0D1B00419033 /* Frameworks */,
+				112095361A3B0D1B00419033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1120953E1A3B0D1B00419033 /* PBXTargetDependency */,
+			);
+			name = "NSUserDefaults, Segues and Protocols Chanllenge SolutionTests";
+			productName = "NSUserDefaults, Segues and Protocols Chanllenge SolutionTests";
+			productReference = 112095381A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge SolutionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1120950C1A3B0D1B00419033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XZZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = 1st1k;
+				TargetAttributes = {
+					112095371A3B0D1B00419033 = {
+						TestTargetID = 112095131A3B0D1B00419033;
+					};
+				};
+			};
+			buildConfigurationList = 1120950F1A3B0D1B00419033 /* Build configuration list for PBXProject "NSUserDefaults, Segues and Protocols Chanllenge Solution" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1120950B1A3B0D1B00419033;
+			productRefGroup = 112095151A3B0D1B00419033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				112095131A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge Solution */,
+				112095371A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge SolutionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		112095121A3B0D1B00419033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1120952E1A3B0D1B00419033 /* Main_iPad.storyboard in Resources */,
+				112095331A3B0D1B00419033 /* Images.xcassets in Resources */,
+				1120952B1A3B0D1B00419033 /* Main_iPhone.storyboard in Resources */,
+				112095221A3B0D1B00419033 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112095361A3B0D1B00419033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112095441A3B0D1B00419033 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		112095101A3B0D1B00419033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112095241A3B0D1B00419033 /* main.m in Sources */,
+				112095281A3B0D1B00419033 /* XZZAppDelegate.m in Sources */,
+				112095311A3B0D1B00419033 /* XZZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112095341A3B0D1B00419033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112095461A3B0D1B00419033 /* NSUserDefaults__Segues_and_Protocols_Chanllenge_SolutionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1120953E1A3B0D1B00419033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 112095131A3B0D1B00419033 /* NSUserDefaults, Segues and Protocols Chanllenge Solution */;
+			targetProxy = 1120953D1A3B0D1B00419033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		112095201A3B0D1B00419033 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112095211A3B0D1B00419033 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		112095291A3B0D1B00419033 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1120952A1A3B0D1B00419033 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1120952C1A3B0D1B00419033 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1120952D1A3B0D1B00419033 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		112095421A3B0D1B00419033 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112095431A3B0D1B00419033 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		112095471A3B0D1B00419033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		112095481A3B0D1B00419033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1120954A1A3B0D1B00419033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSUserDefaults, Segues and Protocols Chanllenge Solution/NSUserDefaults, Segues and Protocols Chanllenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "NSUserDefaults, Segues and Protocols Chanllenge Solution/NSUserDefaults, Segues and Protocols Chanllenge Solution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1120954B1A3B0D1B00419033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSUserDefaults, Segues and Protocols Chanllenge Solution/NSUserDefaults, Segues and Protocols Chanllenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "NSUserDefaults, Segues and Protocols Chanllenge Solution/NSUserDefaults, Segues and Protocols Chanllenge Solution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1120954D1A3B0D1B00419033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSUserDefaults, Segues and Protocols Chanllenge Solution.app/NSUserDefaults, Segues and Protocols Chanllenge Solution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSUserDefaults, Segues and Protocols Chanllenge Solution/NSUserDefaults, Segues and Protocols Chanllenge Solution-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSUserDefaults, Segues and Protocols Chanllenge SolutionTests/NSUserDefaults, Segues and Protocols Chanllenge SolutionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1120954E1A3B0D1B00419033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSUserDefaults, Segues and Protocols Chanllenge Solution.app/NSUserDefaults, Segues and Protocols Chanllenge Solution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSUserDefaults, Segues and Protocols Chanllenge Solution/NSUserDefaults, Segues and Protocols Chanllenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "NSUserDefaults, Segues and Protocols Chanllenge SolutionTests/NSUserDefaults, Segues and Protocols Chanllenge SolutionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1120950F1A3B0D1B00419033 /* Build configuration list for PBXProject "NSUserDefaults, Segues and Protocols Chanllenge Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112095471A3B0D1B00419033 /* Debug */,
+				112095481A3B0D1B00419033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112095491A3B0D1B00419033 /* Build configuration list for PBXNativeTarget "NSUserDefaults, Segues and Protocols Chanllenge Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1120954A1A3B0D1B00419033 /* Debug */,
+				1120954B1A3B0D1B00419033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1120954C1A3B0D1B00419033 /* Build configuration list for PBXNativeTarget "NSUserDefaults, Segues and Protocols Chanllenge SolutionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1120954D1A3B0D1B00419033 /* Debug */,
+				1120954E1A3B0D1B00419033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1120950C1A3B0D1B00419033 /* Project object */;
+}
